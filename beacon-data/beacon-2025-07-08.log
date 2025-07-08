@@ -1,0 +1,4 @@
+Jul-08 02:17:04.681[]                 [32minfo[39m: Lodestar network=mainnet, version=v1.31.0/64823d4, commit=64823d476aed916b437cf38895f1321f1f8b32a2
+Jul-08 02:17:04.993[]                 [32minfo[39m: Connected to LevelDB database path=beacon-data/chain-db
+Jul-08 02:32:41.684[]                 [32minfo[39m: Lodestar network=mainnet, version=v1.31.0/64823d4, commit=64823d476aed916b437cf38895f1321f1f8b32a2
+Jul-08 02:32:42.440[]                 [32minfo[39m: Connected to LevelDB database path=beacon-data/chain-db

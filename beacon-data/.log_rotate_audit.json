@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 5
+    },
+    "auditLog": "beacon-data/.log_rotate_audit.json",
+    "files": [
+        {
+            "date": 1751906415183,
+            "name": "beacon-data/beacon-2025-07-07.log",
+            "hash": "f698cf404bde44924749f1afe17282ac244292cf1024bf85119e4ab7677140ed"
+        },
+        {
+            "date": 1751915824031,
+            "name": "beacon-data/beacon-2025-07-08.log",
+            "hash": "02df8960081f2ffa483b31312536145c0900cb09dd7c35021c113453858f0487"
+        }
+    ],
+    "hashType": "sha256"
+}
