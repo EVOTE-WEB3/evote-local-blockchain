@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 5
+    },
+    "auditLog": "node-1/validator-data/.log_rotate_audit.json",
+    "files": [
+        {
+            "date": 1752058543970,
+            "name": "node-1/validator-data/validator-2025-07-09.log",
+            "hash": "6d7f120bbc439e289c8807db5aa4874ae51fb4e45e7f09cc25e8aa8b14b3aca4"
+        }
+    ],
+    "hashType": "sha256"
+}

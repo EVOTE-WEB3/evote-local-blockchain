@@ -1,0 +1,65 @@
+=============== Jul 9, 2025 (+07) ===============
+17:30:46.370766 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:30:46.481042 db@open opening
+17:30:46.486334 version@stat F·[] S·0B[] Sc·[]
+17:30:46.664969 db@janitor F·2 G·0
+17:30:46.665297 db@open done T·183.9243ms
+18:18:38.494692 memdb@flush N·55736 S·3MiB
+18:18:38.672435 memdb@flush created L0@3 N·55736 S·1MiB "loc..seq,v15679":"version,v1"
+18:18:38.673301 version@stat F·[1] S·1MiB[1MiB] Sc·[0.25]
+18:18:38.740654 memdb@flush committed F·1 T·240.3905ms
+18:18:38.742570 journal@remove removed @1
+19:15:38.670220 memdb@flush N·54609 S·3MiB
+19:15:38.830170 memdb@flush created L0@5 N·54609 S·1MiB "loc..seq,v99628":"n:\xff..ail,v95902"
+19:15:38.830935 version@stat F·[2] S·2MiB[2MiB] Sc·[0.50]
+19:15:38.882622 memdb@flush committed F·1 T·212.0528ms
+19:15:38.887895 journal@remove removed @2
+19:15:41.287590 table@compaction L0·2 -> L1·0 S·2MiB Q·110413
+19:15:41.617397 table@build created L1@6 N·64021 S·2MiB "loc..seq,v99628":"n:\xe5..ail,v37050"
+19:15:41.718926 table@build created L1@7 N·8093 S·263KiB "n:\xe5..ail,v63062":"version,v1"
+19:15:41.719967 version@stat F·[0 2] S·2MiB[0B 2MiB] Sc·[0.00 0.02]
+19:15:41.749387 table@compaction committed F~ S-613KiB Ke·0 D·38231 T·460.9593ms
+19:15:41.754489 table@remove removed @5
+19:15:41.759585 table@remove removed @3
+20:18:25.549282 memdb@flush N·54206 S·3MiB
+20:18:25.727898 memdb@flush created L0@9 N·54206 S·1MiB "loc..seq,v121847":"n:\xff..ong,v113302"
+20:18:25.729068 version@stat F·[1 2] S·3MiB[1MiB 2MiB] Sc·[0.25 0.02]
+20:18:25.776368 memdb@flush committed F·1 T·225.9177ms
+20:18:25.778107 journal@remove removed @4
+20:18:27.678979 table@compaction L0·1 -> L1·2 S·3MiB Q·164587
+20:18:27.945755 table@build created L1@10 N·63430 S·2MiB "loc..seq,v121847":"n:\xaf..ing,v73344"
+20:18:28.081985 table@build created L1@11 N·32853 S·1MiB "n:\xaf..ong,v73343":"version,v1"
+20:18:28.082340 version@stat F·[0 2] S·3MiB[0B 3MiB] Sc·[0.00 0.03]
+20:18:28.126505 table@compaction committed F-1 S-719KiB Ke·0 D·30037 T·447.038ms
+20:18:28.129000 table@remove removed @9
+20:18:28.130707 table@remove removed @6
+20:18:28.131678 table@remove removed @7
+21:24:45.567144 memdb@flush N·53950 S·3MiB
+21:24:45.743412 memdb@flush created L0@13 N·53950 S·1MiB "n:\x00..ail,v214649":"n:\xff..ong,v188856"
+21:24:45.743742 version@stat F·[1 2] S·4MiB[1MiB 3MiB] Sc·[0.25 0.03]
+21:24:45.794699 memdb@flush committed F·1 T·227.153ms
+21:24:45.796446 journal@remove removed @8
+21:24:49.084222 table@compaction L0·1 -> L1·2 S·4MiB Q·218548
+21:24:49.395657 table@build created L1@14 N·63366 S·2MiB "loc..seq,v121847":"n:\x8e..ail,v158160"
+21:24:49.596283 table@build created L1@15 N·52893 S·1MiB "n:\x8e..ing,v31670":"version,v1"
+21:24:49.596596 version@stat F·[0 2] S·3MiB[0B 3MiB] Sc·[0.00 0.04]
+21:24:49.619930 table@compaction committed F-1 S-880KiB Ke·0 D·33974 T·535.3155ms
+21:24:49.622069 table@remove removed @13
+21:24:49.623862 table@remove removed @10
+21:24:49.625350 table@remove removed @11
+22:32:32.665140 memdb@flush N·53661 S·3MiB
+22:32:32.989582 memdb@flush created L0@17 N·53661 S·1MiB "n:\x00..ail,v265592":"n:\xff..ail,v257526"
+22:32:32.990060 version@stat F·[1 2] S·5MiB[1MiB 3MiB] Sc·[0.25 0.04]
+22:32:33.091075 memdb@flush committed F·1 T·387.8953ms
+22:32:33.150108 journal@remove removed @12
+22:32:36.289651 table@compaction L0·1 -> L1·2 S·5MiB Q·272217
+22:32:36.663311 table@build created L1@18 N·63040 S·2MiB "loc..seq,v121847":"n:~..ail,v59324"
+22:32:36.931040 table@build created L1@19 N·64307 S·2MiB "n:~..ail,v59321":"n:\xf8..ail,v32874"
+22:32:37.041679 table@build created L1@20 N·3731 S·120KiB "n:\xf8..ail,v177242":"version,v1"
+22:32:37.041950 version@stat F·[0 3] S·4MiB[0B 4MiB] Sc·[0.00 0.04]
+22:32:37.075701 table@compaction committed F~ S-1017KiB Ke·0 D·38842 T·785.6924ms
+22:32:37.077528 table@remove removed @17
+22:32:37.079308 table@remove removed @14
+22:32:37.080835 table@remove removed @15
+23:38:03.830582 db@close closing
+23:38:03.844994 db@close done T·14.4088ms
