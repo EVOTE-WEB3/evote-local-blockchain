@@ -2,3 +2,4 @@ node/*/geth/
 node/*/keystore/
 
 node/*/transactions.rlp
+secret.txt
