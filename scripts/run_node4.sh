@@ -1,0 +1,13 @@
+geth --datadir ./node/node4 \
+    --port 30306 \
+    --authrpc.port 8554 \
+    --http.port 8548 \
+    --networkid 1337 \
+    --bootnodes "enode://bfcc9e80e5caa88c325d4788492dffceac548be881b2e4238a599e9d4b9fdd95559443d9ed373a01b64b63c2be8eae4f1cd72fefde384766b47298c6b7b83095@127.0.0.1:30303" \
+    --http \
+    --http.api "eth,net,web3,personal,admin,clique" \
+    --allow-insecure-unlock \
+    --unlock "0x3eca012ca79fb1c2dc7d88d5f7fc63c36bf80756" \
+    --password "./node/node1/pass.txt" \
+    --mine \
+    --miner.etherbase "0x3eca012ca79fb1c2dc7d88d5f7fc63c36bf80756"
