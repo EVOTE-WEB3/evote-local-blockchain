@@ -3,7 +3,7 @@ geth --datadir ./node/node3 \
     --authrpc.port 8553 \
     --http.port 8547 \
     --networkid 1337 \
-    --bootnodes "enode://bfcc9e80e5caa88c325d4788492dffceac548be881b2e4238a599e9d4b9fdd95559443d9ed373a01b64b63c2be8eae4f1cd72fefde384766b47298c6b7b83095@127.0.0.1:30303" \
+    --bootnodes "enode://6c124f19600525e600cc9d27ecb7e231c81bccf100e4d5a51efa83c78cc65e027046609e3f3092ebf61cd55f98369cca46f56b242d99216d4a4092233843da7d@127.0.0.1:30303" \
     --http \
     --http.api "eth,net,web3,personal,admin,clique" \
     --allow-insecure-unlock \

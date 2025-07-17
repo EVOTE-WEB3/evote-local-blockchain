@@ -4,3 +4,5 @@ node/*/keystore/
 node/*/transactions.rlp
 secret.txt
 node_modules/
+Evoting.sol
+
